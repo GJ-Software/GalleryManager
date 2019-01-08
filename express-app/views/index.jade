@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  div(class="container-fluid")
+    div(class="row")
+      div(class="col-12 header")
+        ul(id="bar")
+          li(class="menu menu menu-click")
+            a(href="#") Файл
+            ul(class="submenu")
+              li
+                a(href="#") Открыть новую директорию
+              li
+                a(href="#") Новое окно
+          li
+            a(href="#") Редактировать
+          li
+            a(href="#") Синхронизировать
+          li
+            a(href="#") Вид
+          li
+            a(href="#") Настройки
+          li(class="menu menu menu-click")
+            a(href="#") Помощь
+            ul(class="submenu")
+              li
+                a(href="#") Мануал
+              li
+                a(href="#") Github
+              li
+                a(href="#") О нас
+
+    div(class="row")
+      div(style="padding: 0px;" class="col-2")
+        div(id="FilesTree")
+        div(id="panel_bottom")
+
+      div(class="col-10 workspace")
+        div(id="folderName") 
+          h1 Название папки
+          a(href="#") Редактировать
+          div(class="search")
+            input(placeholder="Поиск по названию/тегу" type="text" size="50")
+
+        table(id="gallery")
+          tr
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+            td
+              div(class="pic")
+              a(href="#") Name.jpg
+
+          tr
+            td
+            td
